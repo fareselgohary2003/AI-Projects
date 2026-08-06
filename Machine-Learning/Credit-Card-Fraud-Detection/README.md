@@ -1,29 +1,17 @@
 #  Credit Card Fraud Detection
 
-A Machine Learning project for detecting fraudulent credit card transactions using supervised learning algorithms on a highly imbalanced dataset.
+##  Project Overview
 
----
+This project aims to detect fraudulent credit card transactions using Machine Learning techniques on a highly imbalanced dataset.
 
-#  Project Overview
+##  Dataset
 
-This project focuses on identifying fraudulent credit card transactions using various Machine Learning algorithms. Since fraud cases represent only a very small percentage of all transactions, special techniques such as SMOTE and model tuning were used to improve fraud detection performance.
+- Source: Kaggle Credit Card Fraud Detection Dataset
+- Total Transactions: 284,807
+- Fraud Cases: 492
+- Highly Imbalanced Dataset
 
----
-
-#  Dataset
-
-- **Source:** Kaggle Credit Card Fraud Detection Dataset
-- **Total Transactions:** 284,807
-- **Fraudulent Transactions:** 492
-- **Normal Transactions:** 284,315
-- **Problem Type:** Binary Classification
-- **Challenge:** Highly Imbalanced Dataset
-
----
-
-#  Machine Learning Models
-
-The following algorithms were trained and evaluated:
+##  Models Used
 
 - Logistic Regression
 - Logistic Regression + SMOTE
@@ -31,37 +19,18 @@ The following algorithms were trained and evaluated:
 - XGBoost
 - LightGBM
 
----
-
-#  Best Performing Model
+##  Best Model
 
 **Random Forest**
 
 | Metric | Score |
 |--------|-------:|
-| Accuracy | **99.96%** |
-| Precision | **94.12%** |
-| Recall | **81.63%** |
+| Accuracy | 99.96% |
+| Precision | 94.12% |
+| Recall | 81.63% |
 | F1 Score | **87.43%** |
 
----
-
-#  Project Workflow
-
-1. Data Exploration
-2. Data Cleaning
-3. Exploratory Data Analysis (EDA)
-4. Feature Engineering
-5. Handling Class Imbalance (SMOTE)
-6. Model Training
-7. Model Evaluation
-8. Hyperparameter Tuning
-9. Model Comparison
-10. Final Model Selection
-
----
-
-#  Technologies Used
+## 🛠 Technologies
 
 - Python
 - Pandas
@@ -71,33 +40,18 @@ The following algorithms were trained and evaluated:
 - LightGBM
 - Matplotlib
 - Seaborn
-- Jupyter Notebook
 
----
+##  Project Workflow
 
-#  Evaluation Metrics
+1. Data Exploration
+2. Data Preprocessing
+3. Exploratory Data Analysis (EDA)
+4. Model Training
+5. Model Evaluation
+6. Hyperparameter Tuning
+7. Model Comparison
+8. Final Model Selection
 
-- Accuracy
-- Precision
-- Recall
-- F1-Score
-- Confusion Matrix
-- ROC-AUC
-
----
-
-#  Future Improvements
-
-- Deep Learning Models
-- AutoML Comparison
-- Real-time Fraud Detection API
-- Model Deployment with FastAPI
-- Docker Containerization
-
----
-
-# 👨‍💻 Author
+## 👤 Author
 
 **Fares El Gohary**
-
-AI Engineer • Machine Learning Engineer • Data Scientist
