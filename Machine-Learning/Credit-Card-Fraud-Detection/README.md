@@ -1,16 +1,16 @@
-# 💳 Credit Card Fraud Detection
+#  Credit Card Fraud Detection
 
 A Machine Learning project for detecting fraudulent credit card transactions using supervised learning algorithms on a highly imbalanced dataset.
 
 ---
 
-# 📌 Project Overview
+#  Project Overview
 
 This project focuses on identifying fraudulent credit card transactions using various Machine Learning algorithms. Since fraud cases represent only a very small percentage of all transactions, special techniques such as SMOTE and model tuning were used to improve fraud detection performance.
 
 ---
 
-# 📂 Dataset
+#  Dataset
 
 - **Source:** Kaggle Credit Card Fraud Detection Dataset
 - **Total Transactions:** 284,807
@@ -21,7 +21,7 @@ This project focuses on identifying fraudulent credit card transactions using va
 
 ---
 
-# 🤖 Machine Learning Models
+#  Machine Learning Models
 
 The following algorithms were trained and evaluated:
 
@@ -33,7 +33,7 @@ The following algorithms were trained and evaluated:
 
 ---
 
-# 🏆 Best Performing Model
+#  Best Performing Model
 
 **Random Forest**
 
@@ -46,7 +46,7 @@ The following algorithms were trained and evaluated:
 
 ---
 
-# ⚙️ Project Workflow
+#  Project Workflow
 
 1. Data Exploration
 2. Data Cleaning
@@ -61,7 +61,7 @@ The following algorithms were trained and evaluated:
 
 ---
 
-# 🛠 Technologies Used
+#  Technologies Used
 
 - Python
 - Pandas
@@ -75,7 +75,7 @@ The following algorithms were trained and evaluated:
 
 ---
 
-# 📊 Evaluation Metrics
+#  Evaluation Metrics
 
 - Accuracy
 - Precision
@@ -86,7 +86,7 @@ The following algorithms were trained and evaluated:
 
 ---
 
-# 🚀 Future Improvements
+#  Future Improvements
 
 - Deep Learning Models
 - AutoML Comparison
