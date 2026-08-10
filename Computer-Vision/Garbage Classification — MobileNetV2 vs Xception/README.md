@@ -1,4 +1,4 @@
-# 🗑️ Garbage Classification — MobileNetV2 vs Xception
+#  Garbage Classification — MobileNetV2 vs Xception
 
 A deep learning-based image classification project for automatically classifying household waste into **12 different categories**.
 
@@ -18,7 +18,7 @@ The main goal is not only to achieve high classification accuracy, but also to c
 
 ---
 
-## 📌 Project Overview
+##  Project Overview
 
 Waste classification is an important Computer Vision application that can help automate waste sorting and recycling systems.
 
@@ -44,7 +44,7 @@ The dataset contains **12 classes**:
 
 ---
 
-## 🎯 Project Objectives
+##  Project Objectives
 
 The main objectives of this project are:
 
@@ -64,7 +64,7 @@ The main objectives of this project are:
 
 ---
 
-# 📂 Dataset
+#  Dataset
 
 The project uses the:
 
@@ -94,7 +94,7 @@ The split was performed while preserving the class distribution across training,
 
 ---
 
-# 🔍 Dataset Exploration
+#  Dataset Exploration
 
 Before training the models, the dataset was extensively explored.
 
@@ -126,7 +126,7 @@ Because the original images have different dimensions, images are resized before
 
 ---
 
-# 🧹 Data Validation
+#  Data Validation
 
 A complete validation process was performed before training.
 
